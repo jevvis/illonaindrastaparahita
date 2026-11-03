@@ -2,7 +2,7 @@
 
 import { useLanguage } from '@/contexts/LanguageContext'
 
-const palette = ['bg-emerald-600', 'bg-blue-600', 'bg-indigo-600', 'bg-cyan-700', 'bg-purple-600', 'bg-amber-600', 'bg-teal-600', 'bg-rose-600']
+const palette = ['bg-blue-600', 'bg-blue-600', 'bg-indigo-600', 'bg-cyan-700', 'bg-purple-600', 'bg-amber-600', 'bg-sky-600', 'bg-rose-600']
 
 type Bi = { id: string; en: string }
 

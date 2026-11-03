@@ -148,7 +148,7 @@ function InternshipImageStack({
                 }}
                 className={`h-2 rounded-full transition-all duration-300 ${
                   i === activeIndex
-                    ? 'w-6 bg-emerald-500 shadow-md'
+                    ? 'w-6 bg-blue-500 shadow-md'
                     : 'w-2 bg-white/50 hover:bg-white/80'
                 }`}
                 aria-label={`${t('ui.viewPhoto')} ${i + 1}`}
@@ -308,7 +308,7 @@ export default function WorkGallery() {
               {/* Text Content */}
               <div className="w-full lg:w-1/2 flex flex-col font-sans">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-xs font-sans font-bold px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-500 border border-emerald-500/20">
+                  <span className="text-xs font-sans font-bold px-2.5 py-1 rounded-md bg-blue-500/10 text-blue-500 border border-blue-500/20">
                     {item.number}
                   </span>
                   <span className="text-[11px] tracking-widest text-[var(--muted)] uppercase font-sans font-semibold">
@@ -319,7 +319,7 @@ export default function WorkGallery() {
                 <h3 className="text-2xl md:text-3xl font-bold text-[var(--foreground)] mb-1 font-sans">
                   {item.institution}
                 </h3>
-                <h4 className="text-lg md:text-xl font-semibold text-emerald-500 mb-2 font-sans">
+                <h4 className="text-lg md:text-xl font-semibold text-blue-500 mb-2 font-sans">
                   {item.role}
                 </h4>
                 <p className="text-xs md:text-sm font-semibold text-[var(--muted)] mb-5 font-sans">

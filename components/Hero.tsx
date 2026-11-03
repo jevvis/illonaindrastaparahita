@@ -53,14 +53,14 @@ export default function Hero() {
 
       {/* Sapaan + nama + tagline (kiri) */}
       <div className="hero-anim absolute left-[4vw] lg:left-[6vw] top-[47%] 2xl:left-auto 2xl:right-1/2 2xl:mr-[360px] 2xl:top-[50%] 2xl:w-[300px] z-20 hidden md:block max-w-[250px] lg:max-w-[300px] pointer-events-none" style={{ '--d': '1000ms' } as React.CSSProperties}>
-        <p className="font-script text-3xl lg:text-4xl font-bold text-emerald-600 dark:text-emerald-400 -rotate-3 leading-none mb-1">{t('hero.hey')}</p>
+        <p className="font-script text-3xl lg:text-4xl font-bold text-blue-600 dark:text-blue-400 -rotate-3 leading-none mb-1">{t('hero.hey')}</p>
         <h1 className="text-2xl lg:text-4xl font-bold tracking-tight text-[var(--foreground)] leading-[1.05]">Illona Indrasta Parahita</h1>
         <p className="mt-3 text-xs lg:text-[13px] leading-relaxed text-[var(--muted)]">{t('hero.tagline')}</p>
       </div>
 
       {/* Versi HP: sapaan + nama di antara kata besar dan kepala foto */}
       <div className="hero-anim absolute inset-x-0 top-[calc(11svh+5.5rem)] z-20 md:hidden text-center pointer-events-none px-4" style={{ '--d': '1000ms' } as React.CSSProperties}>
-        <p className="font-script text-2xl font-bold text-emerald-600 dark:text-emerald-400 leading-none">{t('hero.hey')}</p>
+        <p className="font-script text-2xl font-bold text-blue-600 dark:text-blue-400 leading-none">{t('hero.hey')}</p>
         <h1 className="text-2xl font-bold tracking-tight text-[var(--foreground)]">Illona Indrasta Parahita</h1>
       </div>
 
@@ -74,7 +74,7 @@ export default function Hero() {
       <div className="absolute right-[3vw] lg:right-[5vw] bottom-8 xl:right-0 xl:left-[calc(50%+0.463*min(82vh,651px))] xl:-translate-x-6 z-20 hidden md:flex flex-col items-center">
         {/* kartu putih (tetap putih di mode terang maupun gelap). Di xl+: kolom dari lengan kanan foto (setengah lebar jas = 0,463 x tinggi foto yang tampil, tinggi dibatasi min(82vh, 651px)) sampai tepi kanan layar; kartu di tengahnya */}
         <div className="hero-anim w-[250px] lg:w-[270px] rounded-3xl border border-zinc-200 bg-white px-5 py-4 text-center shadow-[0_14px_34px_-14px_rgba(0,0,0,0.35)] pointer-events-none" style={{ '--d': '1350ms' } as React.CSSProperties}>
-          <p className="text-base lg:text-lg font-bold leading-snug text-emerald-600">{t('hero.role1')}</p>
+          <p className="text-base lg:text-lg font-bold leading-snug text-blue-600">{t('hero.role1')}</p>
           <p className="mt-0.5 text-xs lg:text-[13px] font-semibold leading-snug text-zinc-500">{t('hero.role2')}</p>
         </div>
       </div>
@@ -94,7 +94,7 @@ export default function Hero() {
               isHovered ? 'opacity-90 scale-110' : 'opacity-0 scale-90'
             }`}
             style={{
-              background: `radial-gradient(circle at ${mousePos.x}% ${mousePos.y}%, rgba(16, 185, 129, 0.4), rgba(14, 165, 233, 0.25) 45%, transparent 70%)`,
+              background: `radial-gradient(circle at ${mousePos.x}% ${mousePos.y}%, rgba(59, 130, 246, 0.4), rgba(14, 165, 233, 0.25) 45%, transparent 70%)`,
             }}
           />
 
@@ -112,7 +112,7 @@ export default function Hero() {
             }}
           >
             <div className="flex items-center gap-2.5 px-4 py-2.5 rounded-2xl bg-black/75 dark:bg-zinc-900/85 backdrop-blur-xl border border-white/20 text-white shadow-2xl">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 shrink-0 shadow-[0_0_8px_#34d399]" />
+              <span className="w-2 h-2 rounded-full bg-blue-400 shrink-0 shadow-[0_0_8px_#60a5fa]" />
               <div className="text-left font-sans">
                 <p className="text-xs sm:text-sm font-bold tracking-wide text-white whitespace-nowrap">
                   {t('hero.badge.major')}
@@ -165,7 +165,7 @@ export default function Hero() {
               }`}
               style={{
                 filter: isHovered
-                  ? 'drop-shadow(0 20px 45px rgba(16, 185, 129, 0.3)) drop-shadow(0 12px 30px rgba(0, 0, 0, 0.35))'
+                  ? 'drop-shadow(0 20px 45px rgba(59, 130, 246, 0.3)) drop-shadow(0 12px 30px rgba(0, 0, 0, 0.35))'
                   : 'drop-shadow(0 12px 30px rgba(0, 0, 0, 0.08))',
               }}
             />
@@ -179,7 +179,7 @@ export default function Hero() {
                 : 'opacity-0 translate-y-3 scale-95'
             }`}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/90 dark:bg-emerald-600/90 backdrop-blur-md text-white text-xs font-bold tracking-wider shadow-xl border border-white/20 whitespace-nowrap">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/90 dark:bg-blue-600/90 backdrop-blur-md text-white text-xs font-bold tracking-wider shadow-xl border border-white/20 whitespace-nowrap">
               <span>ILLONA INDRASTA PARAHITA</span>
             </div>
           </div>

@@ -7,8 +7,8 @@
   --background: #f0f0f0;
   --foreground: #0a0a0a;
   /* kotak/kartu: hijau transparan (terlihat jelas di atas latar terang maupun gelap) */
-  --card-bg: rgba(16, 185, 129, 0.12);
-  --card-border: rgba(16, 185, 129, 0.34);
+  --card-bg: rgba(59, 130, 246, 0.12);
+  --card-border: rgba(59, 130, 246, 0.34);
   --muted: #737373;
   --accent: #0a0a0a;
 }
@@ -16,8 +16,8 @@
 .dark {
   --background: #0a0a0a;
   --foreground: #f0f0f0;
-  --card-bg: rgba(16, 185, 129, 0.09);
-  --card-border: rgba(16, 185, 129, 0.3);
+  --card-bg: rgba(59, 130, 246, 0.09);
+  --card-border: rgba(59, 130, 246, 0.3);
   --muted: #a3a3a3;
   --accent: #f0f0f0;
 }
@@ -65,13 +65,13 @@ section[id] {
 /* Kata besar di belakang foto hero: huruf solid tebal yang memudar ke bawah (gaya portofolio editorial) */
 .hero-name {
   display: inline-block;
-  background: linear-gradient(180deg, #059669 0%, #10b981 30%, rgba(16, 185, 129, 0) 86%);
+  background: linear-gradient(180deg, #2563eb 0%, #3b82f6 30%, rgba(59, 130, 246, 0) 86%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .dark .hero-name {
-  background: linear-gradient(180deg, #10b981 0%, #34d399 30%, rgba(52, 211, 153, 0) 86%);
+  background: linear-gradient(180deg, #3b82f6 0%, #60a5fa 30%, rgba(96, 165, 250, 0) 86%);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -154,7 +154,7 @@ html section[data-rvl]::before {
   z-index: 1;
   width: min(1200px, 86%);
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.75) 50%, transparent);
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.75) 50%, transparent);
   transform: translateX(-50%) scaleX(0);
   transform-origin: center;
   opacity: 0;
@@ -180,7 +180,7 @@ html section[data-rvl='1']::before {
   bottom: -2px;
   height: 2px;
   border-radius: 2px;
-  background: linear-gradient(90deg, #10b981, #34d399);
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
   transform: scaleX(0);
   transform-origin: right center;
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
@@ -211,13 +211,13 @@ html.intro-done .intro { display: none; }
   right: 0;
   height: 50.4%;
   background:
-    radial-gradient(900px 520px at 50% 50%, rgba(16, 185, 129, 0.22), transparent 70%),
-    linear-gradient(180deg, #022c22, #03382b);
+    radial-gradient(900px 520px at 50% 50%, rgba(59, 130, 246, 0.22), transparent 70%),
+    linear-gradient(180deg, #0b1b3a, #0d2350);
   transition: transform 0.9s cubic-bezier(0.76, 0, 0.24, 1);
   will-change: transform;
 }
 .intro-top { top: 0; }
-.intro-bottom { bottom: 0; background: radial-gradient(900px 520px at 50% 50%, rgba(16, 185, 129, 0.22), transparent 70%), linear-gradient(0deg, #022c22, #03382b); }
+.intro-bottom { bottom: 0; background: radial-gradient(900px 520px at 50% 50%, rgba(59, 130, 246, 0.22), transparent 70%), linear-gradient(0deg, #0b1b3a, #0d2350); }
 .intro.is-open .intro-top { transform: translateY(-101%); }
 .intro.is-open .intro-bottom { transform: translateY(101%); }
 
@@ -238,10 +238,10 @@ html.intro-done .intro { display: none; }
 
 .intro-capsule { width: min(240px, 52vw); transform: rotate(-28deg); overflow: visible; }
 .intro-globe { width: min(190px, 46vw); overflow: visible; }
-.intro-cap-line { stroke: #6ee7b7; stroke-width: 3.2; stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: 100; animation: introDraw 1s cubic-bezier(0.65, 0, 0.35, 1) 0.15s forwards; }
-.intro-cap-mid { stroke: #6ee7b7; stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: 100; animation: introDraw 0.5s ease 0.85s forwards; }
-.intro-cap-fill-left { fill: #10b981; opacity: 0; animation: introFill 0.5s ease 1.05s forwards; }
-.intro-cap-fill-right { fill: #ecfdf5; opacity: 0; animation: introFillSoft 0.5s ease 1.15s forwards; }
+.intro-cap-line { stroke: #93c5fd; stroke-width: 3.2; stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: 100; animation: introDraw 1s cubic-bezier(0.65, 0, 0.35, 1) 0.15s forwards; }
+.intro-cap-mid { stroke: #93c5fd; stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: 100; animation: introDraw 0.5s ease 0.85s forwards; }
+.intro-cap-fill-left { fill: #3b82f6; opacity: 0; animation: introFill 0.5s ease 1.05s forwards; }
+.intro-cap-fill-right { fill: #eff6ff; opacity: 0; animation: introFillSoft 0.5s ease 1.15s forwards; }
 @keyframes introDraw { to { stroke-dashoffset: 0; } }
 @keyframes introFill { to { opacity: 1; } }
 @keyframes introFillSoft { to { opacity: 0.16; } }
@@ -250,7 +250,7 @@ html.intro-done .intro { display: none; }
   font-size: clamp(20px, 3.4vw, 34px);
   font-weight: 700;
   letter-spacing: -0.01em;
-  color: #ecfdf5;
+  color: #eff6ff;
   opacity: 0;
   animation: introUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.95s forwards;
 }
@@ -258,7 +258,7 @@ html.intro-done .intro { display: none; }
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.4em;
-  color: #6ee7b7;
+  color: #93c5fd;
   opacity: 0;
   animation: introUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) 1.2s forwards;
 }
@@ -273,7 +273,7 @@ html.intro-done .intro { display: none; }
   font-size: 10px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: rgba(236, 253, 245, 0.45);
+  color: rgba(239, 246, 255, 0.45);
   opacity: 0;
   animation: introUp 0.6s ease 1.4s forwards;
 }

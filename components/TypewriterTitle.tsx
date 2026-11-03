@@ -15,7 +15,7 @@ export default function TypewriterTitle({
   className = '',
   speed = 45,
   delay = 150,
-  cursorClassName = 'text-emerald-500 font-light',
+  cursorClassName = 'text-blue-500 font-light',
 }: TypewriterTitleProps) {
   const [displayedText, setDisplayedText] = useState('')
   const [hasStarted, setHasStarted] = useState(false)

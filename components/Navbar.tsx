@@ -114,13 +114,13 @@ export default function Navbar() {
           {/* Language Toggle */}
           <button
             onClick={() => setLang(lang === 'id' ? 'en' : 'id')}
-            className="flex items-center gap-0.5 px-2 py-1.5 rounded-full border border-[var(--card-border)] bg-[var(--card-bg)] hover:border-emerald-500/50 hover:bg-emerald-500/5 transition-all text-[10px] font-bold tracking-widest"
+            className="flex items-center gap-0.5 px-2 py-1.5 rounded-full border border-[var(--card-border)] bg-[var(--card-bg)] hover:border-blue-500/50 hover:bg-blue-500/5 transition-all text-[10px] font-bold tracking-widest"
             title={lang === 'id' ? 'Ganti ke bahasa Inggris' : 'Switch to Indonesian'}
             aria-label="Toggle language"
           >
-            <span className={`transition-all ${lang === 'id' ? 'text-emerald-500' : 'text-[var(--muted)]'}`}>ID</span>
+            <span className={`transition-all ${lang === 'id' ? 'text-blue-500' : 'text-[var(--muted)]'}`}>ID</span>
             <span className="text-[var(--muted)] mx-0.5 font-light">|</span>
-            <span className={`transition-all ${lang === 'en' ? 'text-emerald-500' : 'text-[var(--muted)]'}`}>EN</span>
+            <span className={`transition-all ${lang === 'en' ? 'text-blue-500' : 'text-[var(--muted)]'}`}>EN</span>
           </button>
 
           <ThemeToggle />
@@ -170,11 +170,11 @@ export default function Navbar() {
               <span className="text-[10px] text-[var(--muted)] font-semibold tracking-widest uppercase">Bahasa / Language:</span>
               <button
                 onClick={() => setLang(lang === 'id' ? 'en' : 'id')}
-                className="flex items-center gap-1 text-[10px] font-bold tracking-widest border border-[var(--card-border)] rounded-full px-2.5 py-1 hover:border-emerald-500/50 transition-all"
+                className="flex items-center gap-1 text-[10px] font-bold tracking-widest border border-[var(--card-border)] rounded-full px-2.5 py-1 hover:border-blue-500/50 transition-all"
               >
-                <span className={lang === 'id' ? 'text-emerald-500' : 'text-[var(--muted)]'}>ID</span>
+                <span className={lang === 'id' ? 'text-blue-500' : 'text-[var(--muted)]'}>ID</span>
                 <span className="text-[var(--muted)]">|</span>
-                <span className={lang === 'en' ? 'text-emerald-500' : 'text-[var(--muted)]'}>EN</span>
+                <span className={lang === 'en' ? 'text-blue-500' : 'text-[var(--muted)]'}>EN</span>
               </button>
             </div>
           </div>

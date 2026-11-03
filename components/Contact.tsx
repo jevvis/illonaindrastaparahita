@@ -107,28 +107,28 @@ export default function Contact() {
           <div className="space-y-4">
             {contactChannels.map((item) => {
               const CardContent = (
-                <div className="relative p-5 sm:p-6 rounded-2xl bg-[var(--card-bg)] border border-[var(--card-border)] flex items-center gap-4 sm:gap-5 hover:border-emerald-500/40 hover:shadow-lg hover:scale-[1.01] transition-all duration-200 group">
-                  <div className="w-12 h-12 rounded-xl bg-[var(--background)] border border-[var(--card-border)] flex items-center justify-center shrink-0 text-[var(--foreground)] group-hover:text-emerald-500 group-hover:border-emerald-500/30 transition-colors shadow-sm">
+                <div className="relative p-5 sm:p-6 rounded-2xl bg-[var(--card-bg)] border border-[var(--card-border)] flex items-center gap-4 sm:gap-5 hover:border-blue-500/40 hover:shadow-lg hover:scale-[1.01] transition-all duration-200 group">
+                  <div className="w-12 h-12 rounded-xl bg-[var(--background)] border border-[var(--card-border)] flex items-center justify-center shrink-0 text-[var(--foreground)] group-hover:text-blue-500 group-hover:border-blue-500/30 transition-colors shadow-sm">
                     {item.icon}
                   </div>
                   <div className="flex-1 min-w-0 pr-8">
                     <p className="text-[10px] tracking-[0.2em] uppercase text-[var(--muted)] mb-1 font-semibold">
                       {item.label}
                     </p>
-                    <p className="text-sm sm:text-base font-bold text-[var(--foreground)] truncate group-hover:text-emerald-500 transition-colors">
+                    <p className="text-sm sm:text-base font-bold text-[var(--foreground)] truncate group-hover:text-blue-500 transition-colors">
                       {item.value}
                     </p>
                   </div>
 
                   {item.isLink && (
-                    <div className="text-[var(--muted)] group-hover:text-emerald-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all shrink-0">
+                    <div className="text-[var(--muted)] group-hover:text-blue-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all shrink-0">
                       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M7 17l9.2-9.2M17 17V8H8" />
                       </svg>
                     </div>
                   )}
 
-                  <span className="absolute top-3.5 right-4 text-xs font-mono font-bold text-emerald-500/80">
+                  <span className="absolute top-3.5 right-4 text-xs font-mono font-bold text-blue-500/80">
                     {item.id}
                   </span>
                 </div>
