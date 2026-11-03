@@ -3,7 +3,7 @@ export const siteData = {
   firstName: 'ILLONA',
   initials: 'I',
   title: 'Tour and Travel Business Graduate | Customer Service | Airport Operations',
-  email: 'illonaindrasta2004@gmail.com',
+  email: 'illonaindrasta@gmail.com',
   phone: '+62 856 4313 2363',
   whatsappUrl: 'https://wa.me/6285643132363',
   linkedin: 'linkedin.com/in/illonaindrasta',

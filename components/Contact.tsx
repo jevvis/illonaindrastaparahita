@@ -10,8 +10,8 @@ export default function Contact() {
     {
       id: '01',
       label: 'EMAIL',
-      value: 'illonaindrasta2004@gmail.com',
-      href: 'mailto:illonaindrasta2004@gmail.com?subject=Peluang%20Kerja%20Sama%20-%20Illona%20Indrasta%20Parahita',
+      value: 'illonaindrasta@gmail.com',
+      href: 'mailto:illonaindrasta@gmail.com?subject=Peluang%20Kerja%20Sama%20-%20Illona%20Indrasta%20Parahita',
       isLink: true,
       icon: (
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -95,10 +95,10 @@ export default function Contact() {
               </a>
 
               <a
-                href="mailto:illonaindrasta2004@gmail.com"
+                href="mailto:illonaindrasta@gmail.com"
                 className="inline-flex items-center gap-2 px-6 py-4 rounded-full border border-[var(--card-border)] bg-[var(--card-bg)] text-sm font-semibold hover:border-[var(--muted)] hover:bg-[var(--foreground)]/5 transition-all"
               >
-                illonaindrasta2004@gmail.com
+                illonaindrasta@gmail.com
               </a>
             </div>
           </div>

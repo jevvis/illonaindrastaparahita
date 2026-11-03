@@ -79,7 +79,7 @@ for (const f of files) {
 
 // 5. Data wajib klien
 const all = files.map((f) => readFileSync(f, 'utf8')).join('\n')
-for (const must of ['Illona Indrasta Parahita', '6285643132363', 'illonaindrasta2004@gmail.com', 'linkedin.com/in/illonaindrasta', '+62 856 4313 2363']) {
+for (const must of ['Illona Indrasta Parahita', '6285643132363', 'illonaindrasta@gmail.com', 'linkedin.com/in/illonaindrasta', '+62 856 4313 2363']) {
   if (!all.includes(must)) fail(`Data wajib tidak ditemukan: ${must}`)
 }
 

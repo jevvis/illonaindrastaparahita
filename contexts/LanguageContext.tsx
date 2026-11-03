@@ -161,7 +161,7 @@ const translations: Record<Language, Record<string, string>> = {
     'work.2.role': "Peserta KKN-PPM UGM",
     'work.2.inst': "KKN-PPM UGM MENGUKIR SAMOSIR 2025",
     'work.2.loc': "Kabupaten Samosir, Sumatera Utara",
-    'work.2.period': "2025",
+    'work.2.period': "Jun 2025 — Agu 2025",
     'work.2.sub': "Pengembangan Pariwisata Berbasis Masyarakat",
     'work.2.desc': "Berpartisipasi dalam pengembangan potensi pariwisata lokal melalui pemberdayaan masyarakat, promosi destinasi, edukasi pariwisata, dan kegiatan berbasis komunitas. Program kerja: Beach Clean Up di Pasir Putih Parbaba bersama masyarakat, Dinas Pariwisata, Dinas Lingkungan Hidup, dan perangkat desa; Edukasi Sustainable Tourism and Travel Smart untuk masyarakat dan pelajar; penyusunan Brosur Standardisasi Homestay (pelayanan, fasilitas, kebersihan, dan kenyamanan); Tourism Go Digital: promosi pariwisata berbasis digital; Explore Indonesia Destination with Young Tour Guides, pengenalan pariwisata dan dasar pemanduan untuk anak-anak melalui menggambar dan mewarnai; Aksi Jomput Sampah; serta Liaison Officer (LO) untuk Agro Parade dan perlombaan di Tao Toba Jou Jou Festival.",
 
@@ -528,7 +528,7 @@ const translations: Record<Language, Record<string, string>> = {
     'work.2.role': "KKN-PPM UGM Participant",
     'work.2.inst': "KKN-PPM UGM MENGUKIR SAMOSIR 2025",
     'work.2.loc': "Samosir Regency, North Sumatra",
-    'work.2.period': "2025",
+    'work.2.period': "Jun 2025 — Aug 2025",
     'work.2.sub': "Community-Based Tourism Development",
     'work.2.desc': "Took part in developing local tourism potential through community empowerment, destination promotion, tourism education, and community-based activities. Work programs: Beach Clean Up at Pasir Putih Parbaba together with the community, the Tourism Office, the Environment Office, and village officials; Sustainable Tourism and Travel Smart Education for the community and students; a Homestay Standardization Brochure (service, facilities, cleanliness, and comfort); Tourism Go Digital: digital-based tourism promotion; Explore Indonesia Destination with Young Tour Guides, introducing tourism and basic guiding to children through drawing and coloring; the Jomput Sampah Action; and Liaison Officer (LO) for the Agro Parade and competitions at the Tao Toba Jou Jou Festival.",
 
