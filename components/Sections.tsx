@@ -45,6 +45,19 @@ export function WordLogo({ className = 'w-7 h-7' }: { className?: string }) {
   )
 }
 
+export function OfficeLogo({ className = 'w-7 h-7' }: { className?: string }) {
+  // gabungan tiga aplikasi Microsoft Office: Word (biru), Excel (hijau), PowerPoint (oranye)
+  return (
+    <svg className={className} viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Microsoft Office">
+      <rect x="1" y="9" width="14" height="14" rx="3" fill="#185abd" />
+      <text x="8" y="19.6" fill="#ffffff" fontSize="9" fontWeight="800" textAnchor="middle" fontFamily="system-ui, -apple-system, sans-serif">W</text>
+      <rect x="17" y="2" width="14" height="14" rx="3" fill="#107c41" />
+      <text x="24" y="12.6" fill="#ffffff" fontSize="9" fontWeight="800" textAnchor="middle" fontFamily="system-ui, -apple-system, sans-serif">X</text>
+      <rect x="17" y="17" width="14" height="14" rx="3" fill="#c43e1c" />
+      <text x="24" y="27.6" fill="#ffffff" fontSize="9" fontWeight="800" textAnchor="middle" fontFamily="system-ui, -apple-system, sans-serif">P</text>
+    </svg>
+  )
+}
 
 const lineIcon = (children: React.ReactNode) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7 text-[var(--foreground)]">
@@ -1397,7 +1410,7 @@ export function PersonalSkillsSection() {
   }))
 
   const technicalSkills = [
-    { id: 1, Icon: WordLogo },
+    { id: 1, Icon: OfficeLogo },
     { id: 2, Icon: null, icon: icons.flag },
     { id: 3, Icon: null, icon: icons.check },
     { id: 4, Icon: null, icon: icons.headset },

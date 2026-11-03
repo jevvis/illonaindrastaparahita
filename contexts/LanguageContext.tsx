@@ -55,7 +55,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // ── About Section
     'about.label': "TENTANG SAYA",
-    'about.title': "Pariwisata. Layanan. Operasional.",
+    'about.title': "Pariwisata. Layanan. Operasional. Universitas Gadjah Mada.",
     'about.ipk': "IPK",
     'about.honors': "Predikat",
     'about.year': "Lulus",
@@ -422,7 +422,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // ── About Section
     'about.label': "ABOUT ME",
-    'about.title': "Tourism. Service. Operations.",
+    'about.title': "Tourism. Service. Operations. Universitas Gadjah Mada.",
     'about.ipk': "GPA",
     'about.honors': "Honors",
     'about.year': "Graduated",
