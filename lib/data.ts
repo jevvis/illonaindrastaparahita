@@ -1,0 +1,28 @@
+export const siteData = {
+  name: 'Illona Indrasta Parahita',
+  firstName: 'ILLONA',
+  initials: 'I',
+  title: 'Tour and Travel Business Graduate | Customer Service | Airport Operations',
+  email: 'illonaindrasta2004@gmail.com',
+  phone: '+62 856 4313 2363',
+  whatsappUrl: 'https://wa.me/6285643132363',
+  linkedin: 'linkedin.com/in/illonaindrasta',
+  linkedinUrl: 'https://www.linkedin.com/in/illonaindrasta/',
+  location: 'Yogyakarta, Indonesia',
+  resumeUrl: '/CV_Illona_Indrasta_Parahita.pdf',
+  heroName: 'ILLONA INDRASTA PARAHITA',
+  about: {
+    description: 'Lulusan Sarjana Terapan Bisnis Perjalanan Wisata Universitas Gadjah Mada (Cum Laude) dengan pengalaman layanan pelanggan, operasional bandara, dan perencanaan tur.',
+    tagline: 'Customer-oriented. Clear in communication. Accurate in every detail.',
+  },
+  navLinks: [
+    { label: 'Tentang Saya', href: '#about' },
+    { label: 'Pendidikan', href: '#education' },
+    { label: 'Pengalaman', href: '#work' },
+    { label: 'Organisasi', href: '#trainings' },
+    { label: 'Prestasi', href: '#achievements' },
+    { label: 'Sertifikat', href: '#awards' },
+    { label: 'Keahlian', href: '#skills' },
+    { label: 'Soft Skills & Teknis', href: '#personal-skills' },
+  ],
+}
